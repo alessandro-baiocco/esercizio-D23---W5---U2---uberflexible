@@ -146,6 +146,10 @@ aside {
 }
 
 @media screen and (max-width: 840px) {
+  .cover {
+    min-height: 100px;
+    padding: 0;
+  }
   main {
     flex-direction: column;
   }
@@ -153,6 +157,7 @@ aside {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    position: unset;
   }
   .logo {
     order: 2;
