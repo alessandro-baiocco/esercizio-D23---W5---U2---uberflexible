@@ -204,6 +204,7 @@ aside {
     flex-direction: row;
     margin-top: unset;
     margin-block: 10px;
+    padding: 4px;
   }
   .logo {
     order: 0;
