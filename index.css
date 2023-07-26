@@ -183,17 +183,25 @@ aside {
   aside {
     flex-wrap: wrap;
     justify-content: center;
-    vertical-align: middle;
+
     gap: 4px;
+    border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
+    margin: 10px;
   }
   .bottone {
     min-width: unset;
     width: 38%;
+    flex-direction: row;
+    margin-top: unset;
+    margin-block: 10px;
   }
   .logo {
     order: 0;
     width: 100%;
     margin: 0 60px;
+    max-width: 500px;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   nav {
