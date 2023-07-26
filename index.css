@@ -95,6 +95,10 @@ h2 {
 }
 
 /*  sinistra -------------------- */
+.cover {
+  min-width: 200px;
+  background-color: #fef7e2;
+}
 aside {
   min-width: 200px;
   background-color: #fef7e2;
@@ -102,6 +106,7 @@ aside {
   flex-direction: column;
   gap: 20px;
   padding-inline: 10px;
+  position: fixed;
 }
 
 .bottone {
@@ -183,10 +188,10 @@ aside {
   aside {
     flex-wrap: wrap;
     justify-content: center;
-
     gap: 4px;
     border-radius: 20% 20% 20% 20% / 20% 20% 20% 20%;
     margin: 10px;
+    position: unset;
   }
   .bottone {
     min-width: unset;
